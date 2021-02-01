@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  background-color: #282c34;
+}
+
+.parentdiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  background-color: darkslategray;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.childiv{
+  width: 300px;
+  padding: 10px;
+  background-color: darkred;
+  border-radius: 15px;
+}
